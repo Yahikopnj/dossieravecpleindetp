@@ -1,0 +1,59 @@
+#deroulant{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 38px;
+}
+a{
+    text-decoration: none;
+}
+#menud{
+    height: 250px;
+    width: 100%;
+    background-color: red;
+    display: none;
+
+}
+#menue{
+    list-style: none;
+    font-size: 38px;
+    margin-left: 500px;
+}
+#coloreuh{
+ width: 150px;
+ height: 150px;
+ background-color: aquamarine;
+}
+#coloriager{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+   }
+   #lorem{
+    display: none;
+    position: relative;
+    background-color: purple;
+   }
+   @keyframes itachi {
+    0%{
+        height: 0px;
+        opacity: 0;
+    }
+    100%{
+        height: 100px;
+        opacity: 1;
+    }
+   }
+   @keyframes sasuke {
+    0%{
+        opacity: 1;
+        height: 120px;
+    }
+    100%{
+        opacity: 0;
+        height: 0px;
+    }
+   }
+   /*
+   une page ave 3 produits quand ont clique sur un de ses produits il s'ajout dans une div en dessous ui s'appel panier en bonnus le nombre de produit et le total du prix 
+   */

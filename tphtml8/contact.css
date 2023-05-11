@@ -1,0 +1,491 @@
+@font-face {
+    font-family: "bold";
+    src: url(./static/font/roboto/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(./static/font/roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "generaltaoreg";
+    src: url(./static/font/cf-general-tao/CFGeneralTao-Regular.ttf) format("truetype");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#headerbackground {
+    background-image: url(./static/image/imageheader.png);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headermenu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-family: "generaltaoreg";
+    color: #d9cede;
+    font-size: 30px;
+}
+
+#navheader {
+    height: 100px;
+    width: 900px;
+}
+
+#headerseoul {
+    display: flex;
+    height: 190px;
+    width: 190px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.headerli {
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    color: #d9cede;
+    height: 250px;
+    width: 800px;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: "bold";
+
+}
+
+#headerbackslo {
+    background-color: #fff;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 830px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+body {
+    margin: 0%;
+}
+
+#headerblack {
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+#headerlogo {
+    display: flex;
+    width: 190px;
+}
+
+#headernav {
+    margin-left: 8%;
+}
+
+#preheader {
+    line-height: 0px;
+    margin-top: 40px;
+}
+
+#vertheader {
+    color: #3b5823;
+}
+
+#chez {
+    padding-left: 40px;
+}
+
+
+
+#menudepd {
+    text-decoration: none;
+}
+
+.couleurmenu4:hover{
+    color: #3B5823;
+
+}
+.couleurmenu4{
+    text-decoration: none;
+    color: #D9CEDE;
+}
+
+#infopratique {
+    background-color: #3b5823;
+    height: 100px;
+}
+
+h2 {
+    font-family: "bold";
+    color: #d9cede;
+    font-size: 40px;
+    margin-top: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#maps {
+    margin-top: 70px;
+}
+
+#tableau {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-left: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 96vh;
+    height: 50vh;
+    text-align: center;
+    font-family: "regular";
+    color: #3b5823;
+}
+
+.ligne1 {
+    border-right: 1.5px solid #3b5823;
+
+}
+
+.ligne2 {
+    border-top: 1.5px solid #3b5823;
+
+}
+
+#mapsettableau {
+    display: flex;
+}
+
+#punaiselocalisation {
+    width: 20px;
+}
+
+pre {
+    font-family: "regular";
+}
+
+#iconpagecontact {
+    display: flex;
+    justify-content: center;
+}
+
+#tailleicontwi {
+    width: 27px;
+    height: 27px;
+    padding-top: 31px;
+    padding-right: 20px;
+}
+
+#tailleiconfb {
+    width: 35px;
+    height: 35px;
+    padding-top: 20px;
+
+}
+
+#tailleiconinsta {
+    width: 27px;
+    height: 27px;
+    padding-top: 27px;
+    padding-left: 20px;
+}
+
+#horairesouverture {
+    background-color: #3b5823;
+    height: 100px;
+}
+
+h3 {
+    font-family: "bold";
+    color: #d9cede;
+    font-size: 40px;
+    margin-top: 55px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#table2 {
+    border-collapse: collapse;
+    width: 96vh;
+    height: 16vh;
+    text-align: center;
+    font-family: "regular";
+    color: #d9cede;
+}
+
+.ligne1horaire {
+    border-right: 0.5px solid #3b5823;
+
+}
+
+.ligne2horaire {
+    border-top: 0.5px solid #3b5823;
+
+}
+
+#tableauhoraire {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+#apropos {
+    background-color: rgba(217, 206, 222, 0.5);
+    height: 350px;
+
+}
+
+
+span {
+    color: #ffffff;
+
+}
+
+H4 {
+    color: #3b5823;
+    font-family: "bold";
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+#ligne1pagecontact {
+    height: 0.8px;
+    width: 325px;
+    background-color: #3b5823;
+    margin: auto;
+    margin-left: 578px;
+}
+
+#ligne2pagecontact {
+    height: 0.8px;
+    width: 279px;
+    background-color: #3b5823;
+    margin: auto;
+    margin-left: 607px;
+    margin-top: 10px;
+}
+
+#texteaproposcontact {
+    font-family: "regular";
+    font-size: 16px;
+    color: #3b5823;
+    text-align: center;
+    width: 786px;
+    margin-left: 370px;
+    margin-top: 29px;
+}
+
+#boutonlirelasuite {
+    width: 126px;
+    height: 22px;
+    background-color: #3b5823;
+    margin-left: 703px;
+}
+
+
+#lirelasuite {
+    font-family: "regular";
+    font-size: 16px;
+    color: #d9cede;
+}
+
+#lirelasuite:hover{
+    color: #ffffff;
+}
+
+#boutonlirelasuitedeco{
+    text-decoration: none;
+}
+
+
+#footer {
+
+    height: 210px;
+
+    background-color: #232322;
+
+}
+
+#footer1 {
+
+    width: 100%;
+
+    height: 180px;
+
+    background-color: #232322;
+
+    display: flex;
+
+}
+
+#footer2 {
+
+    width: 50%;
+
+    height: 205px;
+
+    background-color: #232322;
+
+}
+
+#image {
+
+    width: 600px;
+
+    height: 150px;
+
+}
+
+h5 {
+
+    margin: 0px;
+
+    margin-left: 237px;
+
+    font-size: 20px;
+
+    color: #d9cede;
+
+    margin-top: 30px;
+
+    font-family: "bold";
+
+}
+
+
+#footer3 {
+
+    width: 50%;
+
+    height: 205px;
+
+    background-color: #232322;
+
+}
+
+#nav {
+
+    margin: 0px;
+
+}
+
+#uul {
+
+    display: flex;
+
+    color: #d9cede;
+
+}
+
+.footer11 {
+
+    color: #D9CEDE;
+
+    text-decoration: none;
+
+}
+
+.footer11:hover {
+
+    color: #3B5823;
+
+}
+
+.liste {
+
+    list-style-type: none;
+
+    margin: 0px 10px;
+
+    font-family: bold;
+
+}
+
+.juin {
+
+    font-family: bold;
+
+    margin-left: 50px;
+
+    color: #d9cede;
+
+}
+
+#instagram {
+
+    width: 50px;
+
+    height: 50px;
+
+}
+
+#facebook {
+
+    width: 60px;
+
+    height: 58px;
+
+    position: relative;
+
+    bottom: 9px;
+
+}
+
+#vector {
+
+    width: 50px;
+
+    height: 42px;
+
+    margin-left: 196px;
+
+    margin-top: 4px;
+
+}
+
+#uul1 {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    color: #d9cede;
+
+    font-family: bold;
+
+    margin-top: 40px;
+
+}
+
+.liste1 {
+
+    list-style-type: none;
+
+}
+.encre {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 4%;
+}
+
+/* tapou en feu aujourd'hui elle a bien taf*/

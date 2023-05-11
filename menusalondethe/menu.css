@@ -1,0 +1,244 @@
+
+@font-face {
+    font-family:"regular";
+    src: url("./static/font/landsdowne_regular.ttf")format("truetype");
+}
+@font-face {
+    font-family:"avalanche";
+    src: url("./static/font/Vintage_Avalanche.otf")format("opentype");
+}
+#header{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    background-color: #baafa3;
+}
+#logo{
+    width: 280px;
+    height: 100px;
+    margin-left: 40px;
+}
+#navigation{
+    width: 100%;
+}
+#menu2{
+    display: flex;
+    list-style: none;
+    margin-top: 35px;
+    justify-content: space-evenly;
+    font-family: "avalanche";
+    font-size: 35px;
+}
+#fb{
+    width: 35px;
+}
+.clique{
+    color: #014b5b;
+}
+#titrebrunch{
+    font-family: "regular";
+    font-size: 150px;
+    color: #014b5b;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    position: relative;
+    left: 275px;
+}
+#sousheader{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+body{
+    margin: 0;
+}
+#plumeee{
+    height: 300px;
+    position: relative;
+    left: 150px;
+}
+#backimg{
+    background-image: url(./static/image/Rectangle_17.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+#part1{
+    font-size: 26px;
+    font-family: "avalanche";
+    padding-left: 55px;
+}
+#part2{
+    font-size: 26px;
+    font-family: "avalanche";
+    padding-right: 30px;
+}
+#contmenu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+#sepa{
+    width: 1px;
+    height: 200px;
+    background-color: black;
+}
+.imggg{
+
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+#contallimg{
+    display: flex;
+    justify-content: space-around;
+}
+#titreboisson{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 100px;
+    font-family: "regular";
+    color: #014b5b;
+    width: 100%;
+    height: 400px;
+}
+.preboi{
+    font-size: 150px;
+    font-family: "regular";
+    color: #014b5b;
+    margin: 0;
+}
+#imgboisson{
+    display: flex;
+    width: 100%;
+    height: 335px;
+}
+#img55{
+    background-image: url(./static/image/Rectangle_29.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#img66{
+    background-image: url(./static/image/Rectangle_30.png);
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    height: 500px;
+}
+#part7{
+    font-size: 26px;
+    font-family: "avalanche";
+    padding-left: 70px;
+    margin-right: 150px;
+}
+#part77{
+    font-size: 26px;
+    font-family: "avalanche";
+    padding-right: 65px;
+}
+#contmenu7{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+#sepa7{
+    width: 1px;
+    height: 270px;
+    background-color: black;
+}
+.imggg{
+
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+#contallimg9{
+    display: flex;
+    justify-content: space-around;
+}
+#plumba{
+    height: 300px;
+    width: 300px;
+    background-image: url(./static/image/Sans_titre-5_6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pati{
+    font-size: 100px;
+    color: #014b5b;
+    font-family: "regular";
+    padding-left: 325px;
+}
+#pttt{
+    display: flex;
+}
+#imggpatiss{
+    width: 100%;
+    height: 380px;
+    background-image: url(./static/image/Rectangle_31.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#part78{
+    font-size: 26px;
+    font-family: "avalanche";
+    padding-left: 70px;
+    margin-right: 150px;
+}
+#part778{
+    font-size: 26px;
+    font-family: "avalanche";
+    padding-right: 65px;
+}
+#contmenu78{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#sepa78{
+    width: 1px;
+    height: 185px;
+    background-color: black;
+}
+#divfoot{
+    background-color: #baafa3;
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+}
+#ulfoot{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+   /* font-size: 32px;
+    font-family: "avalanche";
+    color: #014b5b;*/
+}
+#fbfoot{
+    height: 50px;
+    width: 50px;
+    margin-left: 85px;
+}
+.lifoot{
+    font-size: 32px;
+    font-family: "avalanche";
+    color: #014b5b;
+    margin-left: 85px;
+}

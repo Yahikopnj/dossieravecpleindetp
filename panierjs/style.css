@@ -1,0 +1,23 @@
+#img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#lambo{
+    height: 250px;
+    width: 350px;
+}
+#costume{
+    height: 250px;
+    width: 200px;
+}
+#nuke{
+    height: 250px;
+    width: 350px;
+}
+#panier{
+    background-color: aquamarine;
+    width: 100%;
+    height: 500px;
+}
